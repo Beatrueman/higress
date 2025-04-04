@@ -10,6 +10,8 @@ github.com/alibaba/higress/plugins/wasm-go v1.4.4-0.20250402062842-06623068b150 
 github.com/alibaba/higress/plugins/wasm-go v1.4.4-0.20250402062842-06623068b150/go.mod h1:nAmuA22tHQhn8to3y980Ut7FFv/Ayjj/B7n/F8Wf5JY=
 github.com/alibaba/higress/plugins/wasm-go v1.4.4-0.20250402071250-98a6d18b0641 h1:6Lu8YkpNyJrMrlSmdU7G9YLoQb773xFkhEaKIfJMb7s=
 github.com/alibaba/higress/plugins/wasm-go v1.4.4-0.20250402071250-98a6d18b0641/go.mod h1:nAmuA22tHQhn8to3y980Ut7FFv/Ayjj/B7n/F8Wf5JY=
+github.com/alibaba/higress/plugins/wasm-go v1.4.4-0.20250402071748-c2375419dfdc h1:nqMORPwTUkI1ZzETxiZUGnbO8MJFwuepHIamM3xfsCU=
+github.com/alibaba/higress/plugins/wasm-go v1.4.4-0.20250402071748-c2375419dfdc/go.mod h1:nAmuA22tHQhn8to3y980Ut7FFv/Ayjj/B7n/F8Wf5JY=
 github.com/alibaba/higress/plugins/wasm-go v1.4.4-0.20250402072030-ae5d1c59f256 h1:tvCFhodIs+Fy2sk6Ng1f/az/dCKntfZbF6B+sVqctVs=
 github.com/alibaba/higress/plugins/wasm-go v1.4.4-0.20250402072030-ae5d1c59f256/go.mod h1:nAmuA22tHQhn8to3y980Ut7FFv/Ayjj/B7n/F8Wf5JY=
 github.com/bahlo/generic-list-go v0.2.0 h1:5sz/EEAK+ls5wF+NeqDpk5+iNdMDXrh3z3nPnH1Wvgk=

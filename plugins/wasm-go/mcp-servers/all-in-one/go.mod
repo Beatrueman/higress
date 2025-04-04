@@ -1,8 +1,16 @@
-module amap-tools
+module all-in-one
 
 go 1.24.1
 
-require github.com/alibaba/higress/plugins/wasm-go v1.4.4-0.20250402072030-ae5d1c59f256
+replace quark-search => ../quark-search
+
+replace amap-tools => ../amap-tools
+
+require (
+	amap-tools v0.0.0-00010101000000-000000000000
+	github.com/alibaba/higress/plugins/wasm-go v1.4.4-0.20250402072030-ae5d1c59f256
+	quark-search v0.0.0-00010101000000-000000000000
+)
 
 require (
 	dario.cat/mergo v1.0.1 // indirect

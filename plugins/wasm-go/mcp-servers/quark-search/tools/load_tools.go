@@ -12,18 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package main
+package tools
 
 import (
-	"quark-search/tools"
-
 	"github.com/alibaba/higress/plugins/wasm-go/pkg/mcp"
+	"github.com/alibaba/higress/plugins/wasm-go/pkg/mcp/server"
 )
 
-func main() {}
-
-func init() {
-	mcp.LoadMCPServer(mcp.AddMCPServer("quark-search",
-		tools.LoadTools(mcp.NewMCPServer())))
-	mcp.InitMCPServer()
+func LoadTools(server *mcp.MCPServer) server.Server {
+	return server.AddMCPTool("web_search", &WebSearch{})
 }
